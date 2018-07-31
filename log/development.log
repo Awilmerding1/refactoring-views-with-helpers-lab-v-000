@@ -412,3 +412,11 @@ Processing by SongsController#show as HTML
   [1m[35mArtist Load (0.2ms)[0m  SELECT  "artists".* FROM "artists" WHERE "artists"."id" = ? LIMIT 1  [["id", 3]]
   Rendered songs/show.html.erb within layouts/application (11.0ms)
 Completed 200 OK in 23ms (Views: 17.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/artists/3" for 67.244.19.121 at 2018-07-31 16:41:30 +0000
+Cannot render console from 67.244.19.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArtistsController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendered artists/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
